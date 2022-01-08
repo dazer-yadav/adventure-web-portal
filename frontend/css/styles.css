@@ -87,10 +87,12 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  transition: 0.5s all;
   -webkit-transition: 0.5s all;
   /* -webkit-filter: brightness(70%); */
 }
 .tile img:hover {
+  filter: brightness(50%);
   -webkit-filter: brightness(50%);
   transform: scale(1.1);
 }
@@ -147,7 +149,8 @@ footer {
   border: 1px solid #ddd;
   border-radius: 8px;
   cursor: pointer;
-  -webkit-transition: 0.2s all;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -158,13 +161,15 @@ footer {
   height: 100%;
   width: 100%;
   /* border-radius: 8px; */
-  -webkit-transition: 0.2s all;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
   background-repeat: no-repeat;
   background-position: center;
   object-fit: cover;
   /* -webkit-filter: brightness(70%); */
 }
 .activity-card img:hover {
+  filter: brightness(50%);
   -webkit-filter: brightness(50%);
   /* transform: scale(1.1); */
 }
@@ -182,10 +187,12 @@ footer {
   height: 500px;
   width: 100%;
   cursor: pointer;
+  transition: 0.2s all;
   -webkit-transition: 0.2s all;
   border-radius: 2px;
 }
 .activity-card-image:hover {
+  filter: brightness(50%);
   -webkit-filter: brightness(50%);
 }
 .experience-content ul li {
