@@ -26,7 +26,7 @@ async function fetchCities() {
   }
 }
 
-/* Filter cities on seaerch */
+/* Filter cities on search */
 let input = document.getElementById("input-search");
 input.addEventListener("keyup", function (e) {
   let val = e.target.value;
